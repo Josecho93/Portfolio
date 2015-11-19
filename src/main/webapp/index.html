@@ -38,7 +38,7 @@
             <ul class="sidebar-nav">
                 <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
                 <li class="sidebar-brand">
-                    <a href="#top"  onclick = $("#menu-close").click(); >Start Bootstrap</a>
+                    <a href="#top"  onclick = $("#menu-close").click(); >Navigation menu</a>
                 </li>
                 <li>
                     <a href="#top" onclick = $("#menu-close").click(); >Home</a>
@@ -163,7 +163,7 @@
                                     <a href="http://mototecnix.com/es/">
                                         <h3>Mototecnix, Performance first</h3>
                                         <br>
-                                        <img class="img-portfolio img-responsive" src="img/Moto.jpg">
+                                        <img class="img-portfolio img-responsive" src="img/Moto.jpg" alt="Mototecnix">
                                     </a>
                                 </div>
                             </div>
@@ -171,43 +171,43 @@
                                 <div class="portfolio-item">
                                     <a href="http://www.ivmm.es/">
                                         <h3>Instituto Valenciano de la Mecánica de la Motocicleta</h3>
-                                        <img class="img-portfolio img-responsive" src="img/IVMM.jpg">
+                                        <img class="img-portfolio img-responsive" src="img/IVMM.jpg" alt="IVMM">
                                     </a>
                                 </div>
                             </div>
                         </div>
-
+                  
 
                         <!-- Skills -->                
                         <h2>My Skills</h2>
                         <hr class="small">
                         <div class="row">
                             <div class="col-md-12">
-                                <h4>Photoshop CS6</h4><img src="img/photoshop.png">
-
-                                    <div class="progress-bar" id="photoshop" role="progressbar" aria-valuenow="91" aria-valuemin="0" aria-valuemax="100" style="width: 91%;">
+                                <h4>Photoshop CS6</h4><img src="img/photoshop.png" height="42" width="42" alt="Photoshop">
+                                <div class="progress" id="photoshop">
+                                    <div class="progress-bar"  role="progressbar" aria-valuenow="91" aria-valuemin="0" aria-valuemax="100" style="width: 91%;">
 
                                     </div>
                                 </div>
-                                <h4>Prestashop</h4><i class="fa fa-shopping-cart fa-2x"></i>
+                                <h4>Prestashop</h4><img src="img/prestashop_logo.png" height="42" width="42" alt="Prestashop">
                                 <div class="progress" id="prestashop">
                                     <div class="progress-bar" role="progressbar" aria-valuenow="79" aria-valuemin="0" aria-valuemax="100" style="width: 79%;">
 
                                     </div>
                                 </div>
-                                <h4>Wordpress</h4><i class="fa fa-wordpress fa-2x"></i>
+                                <h4>Wordpress</h4><img src="img/wordpress.png" height="42" width="42" alt="Wordpress">
                                 <div class="progress" id="wordpress">
                                     <div class="progress-bar" role="progressbar" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100" style="width: 66%;">
 
                                     </div>
                                 </div>
-                                <h4>HTML 5</h4><i class="fa fa-html5 fa-2x"></i>
+                                <h4>HTML 5</h4><img src="img/html.png" height="42" width="42" alt="HTML5">
                                 <div class="progress" id="html">
                                     <div class="progress-bar" role="progressbar" aria-valuenow="59" aria-valuemin="0" aria-valuemax="100" style="width: 59%;">
 
                                     </div>
                                 </div>
-                                <h4>CSS 3</h4><i class="fa fa-css3 fa-2x"></i>
+                                <h4>CSS 3</h4><img src="img/css3.png" height="42" width="42" alt="CSS3">
                                 <div class="progress" id="css">
                                     <div class="progress-bar" role="progressbar" aria-valuenow="73" aria-valuemin="0" aria-valuemax="100" style="width: 73%;">
 
@@ -221,6 +221,7 @@
                     <!-- /.row -->
                 </div>
                 <!-- /.container -->
+            </div>
         </section>
 
         <!-- Call to Action -->
@@ -255,6 +256,40 @@
                 </ul>
             </div>
         </div>
+
+        <!-- Email contact -->
+        <div  id="email"  class="row bg-primary"  >
+            <div class="col-md-12 text-center" >
+                <h3>Send me an E-mail</h3>
+
+                <div class="col-md-4 text-center" >
+                    <h4>Your name</h4>
+                    <input type="text" class="form-control" placeholder="Text input">
+                    <h4>Your email</h4>
+                    <input type="text" class="form-control" placeholder="Text input">
+                    
+                    
+                </div>
+                <div class="col-md-8 text-center" >
+                    <h4>Your message</h4>
+                    <textarea class="form-control" rows="5"></textarea>
+
+                </div>
+                <button id="emailbutton" type="submit" class="btn btn-default text-center">Send</button>
+               
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
 
         <!-- Footer -->
         <footer>

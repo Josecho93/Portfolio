@@ -98,7 +98,7 @@ hr.small {
 .sidebar-nav li a {
     display: block;
     text-decoration: none;
-    color: #999;
+    color: white;
 }
 
 .sidebar-nav li a:hover {
@@ -116,10 +116,11 @@ hr.small {
     height: 55px;
     font-size: 18px;
     line-height: 55px;
+
 }
 
 .sidebar-nav > .sidebar-brand a {
-    color: #999;
+    color: white;
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
@@ -232,6 +233,26 @@ hr.small {
     }
 }
 
+/* Email */
+
+#email {
+       padding-bottom: 80px;
+    
+}
+
+#email > .col-md-12{
+    
+    margin-top: 50px;
+    background-color: #337ab7;
+ 
+}
+
+#emailbutton {
+    
+    margin-top: 30px;
+    
+}
+
 /* Footer */
 
 footer {
@@ -239,53 +260,61 @@ footer {
 }
 
 #map {
-    
+
     height: 500px;    
 }
 
 #contact>h4 {
-        font-size: 28px;
-    
+    font-size: 28px;
+
 }
 
 #contact {
-    
+
     height: 500px;
     text-align: center;
     padding-top: 15%;
     font-size: 24px;
 }
 
-
+.col-md-12 > img {
+    
+    margin-bottom: 8px;
+}
 
 #photoshop .progress-bar{
-    
+
     background-color: #0B0B61;
 
-    
+
 }
 
 #prestashop .progress-bar{
-    
+
     background-color: #01DF01;
 
 
 }
 
 #wordpress .progress-bar{
-    
+
     background-color: #A9F5E1;
-    
+
 }
 
 #html .progress-bar{
-    
+
     background-color: #FF4000;
-    
+
 }
 
 #css .progress-bar{
-    
+
     background-color: #01DFD7;
-    
+
+}
+
+#sidebar-wrapper {
+    background-color: grey;
+
 }
